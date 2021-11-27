@@ -2,7 +2,7 @@
 
 
 
-[![GitHub (pre-)release](https://img.shields.io/github/release/fofapro/vulfocus-java/all.svg)](https://github.com/fofapro/vulfocus-spring-boot-starter/releases) [![stars](https://img.shields.io/github/stars/fofapro/vulfocus-spring-boot-starter.svg)](https://github.com/fofapro/vulfocus-spring-boot-starter/stargazers) [![license](https://img.shields.io/github/license/fofapro/vulfocus-spring-boot-starter.svg)](https://github.com/fofapro/vulfocus-spring-boot-starter/blob/master/LICENSE)
+[![GitHub (pre-)release](https://img.shields.io/github/release/fofapro/vulfocus-spring-boot-starter/all.svg)](https://github.com/fofapro/vulfocus-spring-boot-starter/releases) [![stars](https://img.shields.io/github/stars/fofapro/vulfocus-spring-boot-starter.svg)](https://github.com/fofapro/vulfocus-spring-boot-starter/stargazers) [![license](https://img.shields.io/github/license/fofapro/vulfocus-spring-boot-starter.svg)](https://github.com/fofapro/vulfocus-spring-boot-starter/blob/master/LICENSE)
 
 [Chinese document](https://github.com/fofapro/vulfocus-spring-boot-starter/blob/master/README_zh.md)
 
