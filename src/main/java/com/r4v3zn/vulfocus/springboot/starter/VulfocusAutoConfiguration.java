@@ -18,7 +18,6 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 @EnableConfigurationProperties(VulfocusProperties.class)
-@SpringBootConfiguration
 public class VulfocusAutoConfiguration {
 
     @Bean
