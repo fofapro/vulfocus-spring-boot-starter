@@ -1,21 +1,21 @@
 # vulfocus-spring-boot-starter
 
 
-
 [![GitHub (pre-)release](https://img.shields.io/github/release/fofapro/vulfocus-java/all.svg)](https://github.com/fofapro/vulfocus-spring-boot-starter/releases) [![stars](https://img.shields.io/github/stars/fofapro/vulfocus-spring-boot-starter.svg)](https://github.com/fofapro/vulfocus-spring-boot-starter/stargazers) [![license](https://img.shields.io/github/license/fofapro/vulfocus-spring-boot-starter.svg)](https://github.com/fofapro/vulfocus-spring-boot-starter/blob/master/LICENSE)
 
-[Chinese document](https://github.com/fofapro/vulfocus-spring-boot-starter/blob/master/README_zh.md)
+[English document](https://github.com/fofapro/vulfocus-spring-boot-starter/blob/master/README.md)
 
 ## Vulfocus API
 
+[`Vulfocus API`](https://fofapro.github.io/vulfocus/#/VULFOCUSAPI) 是  [`Vulfocus`](http://vulfocus.io/) 为开发提供的 `RESUFul API`接口，允许开发者在自己的项目中集成 [`Vulfocus`](http://vulfocus.io)。
 
-[`Vulfocus API`](https://fofapro.github.io/vulfocus/#/VULFOCUSAPI) is the `RESUFul API` interface provided by [`Vulfocus`](http://vulfocus.io/) for development, allowing Developers integrate [`Vulfocus`](http://vulfocus.io) in their own projects.
 
 ## Vulfocus SDK
 
-The `Spring Boot` version of `SDK` written based on the [`Vulfocus API`](https://fofapro.github.io/vulfocus/#/VULFOCUSAPI) makes it easy for `Spring Boot` developers to quickly integrate [`Vulfocus`](http://vulfocus.io/)  into their projects.
+基于 [`Vulfocus API`](https://fofapro.github.io/vulfocus/#/VULFOCUSAPI) 编写的 `Spring Boot` 版 `SDK`，方便`Spring Boot`开发者快速将  [`Vulfocus`](http://vulfocus.io/) 集成到自己的项目中。
 
-## Add dependency
+
+## 添加依赖
 
 ### Apache Maven
 
@@ -29,15 +29,15 @@ The `Spring Boot` version of `SDK` written based on the [`Vulfocus API`](https:/
 
 ## USE
 
-|field|description|
+|字段名称|描述|
 | ---- | ---- |
-|`addr`|[`Vulfocus`](http://vulfocus.io/) URL|
-|`username`|User login [`Vulfocus`](http://vulfocus.io/) userbox `username`|
-|`licence`|Please go to the [`personal center`](http://vulfocus.fofa.so/#/profile/index) to view `API licence`|
+|`addr`|[`Vulfocus`](http://vulfocus.io/) 地址|
+|`username`|用户登陆 [`Vulfocus`](http://vulfocus.io/) 使用的用户名|
+|`licence`|前往 [`个人中心`](http://vulfocus.fofa.so/#/profile/index) 查看 `API Key`|
 
-### Configuration
+### 配置
 
-Configure the `application.yml` or `application.properties` file.
+需要配置项目中的 `application.yml` 或 `application.properties` 文件。
 
 #### application.yml
 ```yaml
@@ -51,7 +51,7 @@ vulfocus.username=
 vulfocus.license=
 ```
 
-### Pull Images
+### 获取镜像
 
 #### Code
 
@@ -73,7 +73,7 @@ Webmin 1.962版本及之前版本存在安全漏洞，该漏洞允许执行任�
 账户密码：root:password'}]
 ```
 
-### Start
+### 启动
 
 #### Code
 
@@ -100,7 +100,7 @@ Webmin 1.962版本及之前版本存在安全漏洞，该漏洞允许执行任�
 HostEntity{host='118.193.36.37:54240', port='{"10000": "54240"}'}
 ```
 
-### Stop
+### 停止
 
 #### Code
 
@@ -126,7 +126,7 @@ Webmin 1.962版本及之前版本存在安全漏洞，该漏洞允许执行任�
 停止成功
 ```
 
-### Delete
+### 删除
 
 #### Code
 
@@ -152,9 +152,9 @@ Webmin 1.962版本及之前版本存在安全漏洞，该漏洞允许执行任�
 删除成功
 ```
 
-## Update Log
+## 更新日志
 
-2021-11-27
+2021-11-26
 
 ```
 Release
